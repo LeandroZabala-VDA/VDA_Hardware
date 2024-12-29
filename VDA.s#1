@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -18371,7 +18371,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pad name="2" x="9.1" y="-2.4" drill="1.2"/>
 <pad name="1" x="2.1" y="-2.4" drill="1.2"/>
 </package>
-<package name="USB-B" urn="urn:adsk.eagle:footprint:46102258/1" library_version="6">
+<package name="USB-B" urn="urn:adsk.eagle:footprint:46102258/1" library_version="7">
 <text x="-6.862840625" y="6.144290625" size="1.270759375" layer="25">&gt;NAME</text>
 <text x="-6.223" y="-12.192" size="1.27003125" layer="27">&gt;VALUE</text>
 <pad name="M1" x="-6.02" y="0" drill="2.3"/>
@@ -18398,7 +18398,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <packageinstance name="PJ-3200"/>
 </packageinstances>
 </package3d>
-<package3d name="USB-B" urn="urn:adsk.eagle:package:46102260/2" type="model" library_version="6">
+<package3d name="USB-B" urn="urn:adsk.eagle:package:46102260/2" type="model" library_version="7">
 <packageinstances>
 <packageinstance name="USB-B"/>
 </packageinstances>
@@ -18427,7 +18427,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pin name="TIP" x="0" y="-7.62" visible="off" length="point" direction="pas" rot="R180"/>
 <text x="-8.128" y="3.556" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="USB-2.0_A" urn="urn:adsk.eagle:symbol:46102259/1" library_version="6">
+<symbol name="USB-2.0_A" urn="urn:adsk.eagle:symbol:46102259/1" library_version="7">
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
@@ -18461,7 +18461,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB-2.0" urn="urn:adsk.eagle:component:46102261/2" library_version="6">
+<deviceset name="USB-2.0" urn="urn:adsk.eagle:component:46102261/3" prefix="J" library_version="7">
 <gates>
 <gate name="G$1" symbol="USB-2.0_A" x="0" y="0"/>
 </gates>
@@ -19120,7 +19120,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$4" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
 <part name="U$5" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
 <part name="U$6" library="Connectors" library_urn="urn:adsk.eagle:library:46102117" deviceset="STEREO-JACK" device="" package3d_urn="urn:adsk.eagle:package:46102120/5"/>
-<part name="U$7" library="Connectors" library_urn="urn:adsk.eagle:library:46102117" deviceset="USB-2.0" device="" package3d_urn="urn:adsk.eagle:package:46102260/2"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="47.5k"/>
 <part name="C1" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0603" package3d_urn="urn:adsk.eagle:package:20146986/3" value="100n"/>
 <part name="U1" library="property_digital" library_urn="urn:adsk.eagle:library:46108513" deviceset="SN74LVC1G175" device="" package3d_urn="urn:adsk.eagle:package:46108518/3"/>
@@ -19223,6 +19222,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="Connectors" library_urn="urn:adsk.eagle:library:46102117" deviceset="USB-2.0" device="" package3d_urn="urn:adsk.eagle:package:46102260/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19290,9 +19290,6 @@ DE IN-OUT AISLADOR</text>
 <instance part="U$3" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="SHEET_HEADLINE" x="185.42" y="12.7" size="3.81" layer="97"/>
 <attribute name="LAST_DATE_TIME" x="195.58" y="1.27" size="2.54" layer="97"/>
-</instance>
-<instance part="U$7" gate="G$1" x="33.02" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38.1" y="102.108" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="45.72" y="78.74" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.688" y="78.7654" size="1.778" layer="95" rot="R180"/>
@@ -19406,6 +19403,9 @@ DE IN-OUT AISLADOR</text>
 <instance part="P+2" gate="1" x="233.68" y="185.42" smashed="yes">
 <attribute name="VALUE" x="231.394" y="186.182" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="33.02" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="102.108" size="1.778" layer="95" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19465,9 +19465,9 @@ DE IN-OUT AISLADOR</text>
 <pinref part="D3" gate="G$1" pin="P$1"/>
 <wire x1="76.2" y1="88.9" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="D+"/>
-<pinref part="U$7" gate="G$1" pin="D+"/>
 <wire x1="43.18" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="76.2" y="93.98"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="USB_DN" class="0">
@@ -19477,8 +19477,8 @@ DE IN-OUT AISLADOR</text>
 <pinref part="D4" gate="G$1" pin="P$1"/>
 <junction x="81.28" y="88.9"/>
 <pinref part="U2" gate="G$1" pin="D-"/>
-<pinref part="U$7" gate="G$1" pin="D-"/>
 <wire x1="43.18" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -19532,9 +19532,9 @@ DE IN-OUT AISLADOR</text>
 <label x="83.82" y="58.42" size="1.778" layer="95"/>
 <label x="97.028" y="107.696" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="REGIN"/>
-<pinref part="U$7" gate="G$1" pin="VCC"/>
 <wire x1="43.18" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="+VIN"/>
@@ -19582,12 +19582,12 @@ DE IN-OUT AISLADOR</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="83.82" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="SHIELD"/>
 <wire x1="43.18" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <junction x="45.72" y="88.9"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="81.28" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
 </segment>
 </net>
 <net name="USART_RX" class="0">
@@ -19670,9 +19670,9 @@ DE IN-OUT AISLADOR</text>
 </segment>
 <segment>
 <wire x1="66.04" y1="91.44" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND-1"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="P$2"/>
