@@ -321,7 +321,7 @@ SMD,P=0.5mm,Surface Mount，Right Angle</description>
 </library>
 <library name="property_LED" urn="urn:adsk.eagle:library:46147719">
 <packages>
-<package name="VLRK31" urn="urn:adsk.eagle:footprint:46147720/2" library_version="2">
+<package name="VLRK31" urn="urn:adsk.eagle:footprint:46147720/3" library_version="3">
 <smd name="K" x="2.8" y="0" dx="2.6" dy="2.6" layer="1" rot="R90"/>
 <smd name="A" x="-2.8" y="0" dx="2.6" dy="2.6" layer="1" rot="R90"/>
 <wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
@@ -337,11 +337,17 @@ SMD,P=0.5mm,Surface Mount，Right Angle</description>
 <vertex x="0.762" y="1.27"/>
 <vertex x="1.397" y="0.635"/>
 </polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1.397" y="-1.27"/>
+<vertex x="-1.397" y="1.27"/>
+<vertex x="1.397" y="1.27"/>
+<vertex x="1.397" y="-1.27"/>
+</polygon>
 <text x="-3.81" y="-3.175" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="VLRK31" urn="urn:adsk.eagle:package:46147722/3" type="model" library_version="2">
+<package3d name="VLRK31" urn="urn:adsk.eagle:package:46147722/4" type="model" library_version="3">
 <packageinstances>
 <packageinstance name="VLRK31"/>
 </packageinstances>
@@ -361,7 +367,7 @@ SMD,P=0.5mm,Surface Mount，Right Angle</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-REVERSE_MOUNT" urn="urn:adsk.eagle:component:46147723/2" prefix="D" library_version="2">
+<deviceset name="LED-REVERSE_MOUNT" urn="urn:adsk.eagle:component:46147723/3" prefix="D" library_version="3">
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -372,7 +378,7 @@ SMD,P=0.5mm,Surface Mount，Right Angle</description>
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46147722/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10888,7 +10894,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <parts>
 <part name="J1" library="property-connectors" library_urn="urn:adsk.eagle:library:15015717" deviceset="F0504-H-05-10G-R" device="" package3d_urn="urn:adsk.eagle:package:45700382/3"/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/3"/>
+<part name="D1" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 <part name="Q1" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
@@ -10910,9 +10916,9 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <part name="R3" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
 <part name="+3V4" library="USBC_LBRY" deviceset="+3V3" device=""/>
-<part name="D2" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/3"/>
+<part name="D2" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 <part name="R6" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
-<part name="D3" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/3"/>
+<part name="D3" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 <part name="R9" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 </parts>
 <sheets>
@@ -10920,6 +10926,9 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <description>Panel Frontal</description>
 <plain>
 <text x="58.42" y="48.26" size="1.778" layer="97">VLRK31Q1R2-GS08</text>
+<text x="183.388" y="167.64" size="3.81" layer="97">Power LED</text>
+<text x="150.368" y="167.64" size="3.81" layer="97">ACQ LED</text>
+<text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">

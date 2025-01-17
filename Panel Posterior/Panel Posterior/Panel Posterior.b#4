@@ -85,6 +85,7 @@
 <wire x1="55" y1="20" x2="56" y2="19" width="0.1524" layer="20" curve="-90"/>
 <wire x1="55" y1="8" x2="56" y2="9" width="0.1524" layer="20" curve="90"/>
 <wire x1="43" y1="8" x2="42" y2="9" width="0.1524" layer="20" curve="-90"/>
+<text x="46" y="22" size="2.54" layer="21">USB</text>
 </plain>
 <libraries>
 </libraries>
