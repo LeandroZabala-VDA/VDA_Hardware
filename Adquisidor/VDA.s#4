@@ -3613,64 +3613,24 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <text x="-2.54" y="1.84" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.567" y="-2.956" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="CONN-VERT-2.54MM-2X6-MALE" urn="urn:adsk.eagle:footprint:16614419/1" library_version="228">
-<pad name="1" x="-2.54" y="-1.27" drill="1.1" shape="octagon"/>
-<pad name="3" x="0" y="-1.27" drill="1.1"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1"/>
-<pad name="4" x="0" y="1.27" drill="1.1"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1"/>
-<pad name="7" x="5.08" y="-1.27" drill="1.1"/>
-<pad name="8" x="5.08" y="1.27" drill="1.1"/>
-<pad name="9" x="7.62" y="-1.27" drill="1.1"/>
-<pad name="11" x="10.16" y="-1.27" drill="1.1"/>
-<pad name="10" x="7.62" y="1.27" drill="1.1"/>
-<pad name="12" x="10.16" y="1.27" drill="1.1"/>
-<text x="-1.4875" y="3.2225" size="0.6096" layer="21">&gt;NAME</text>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.175" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.81" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="10.835" y1="-2.54" x2="11.47" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="11.47" y1="-1.905" x2="11.47" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="11.47" y1="-0.635" x2="10.835" y2="0" width="0.127" layer="21"/>
-<wire x1="10.835" y1="0" x2="11.47" y2="0.635" width="0.127" layer="21"/>
-<wire x1="11.47" y1="0.635" x2="11.47" y2="1.905" width="0.127" layer="21"/>
-<wire x1="11.47" y1="1.905" x2="10.835" y2="2.54" width="0.127" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="8.255" y2="2.54" width="0.127" layer="21"/>
-<wire x1="9.525" y1="2.54" x2="10.795" y2="2.54" width="0.127" layer="21"/>
-<wire x1="9.525" y1="-2.54" x2="10.795" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="8.255" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="8.255" y1="-2.54" x2="8.89" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-1.905" x2="9.525" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="8.255" y1="2.54" x2="8.89" y2="1.905" width="0.127" layer="21"/>
-<wire x1="8.89" y1="1.905" x2="9.525" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.885" y1="2.54" x2="3.155" y2="2.54" width="0.127" layer="21"/>
-<wire x1="4.425" y1="2.54" x2="5.695" y2="2.54" width="0.127" layer="21"/>
-<wire x1="3.155" y1="2.54" x2="3.79" y2="1.905" width="0.127" layer="21"/>
-<wire x1="3.79" y1="1.905" x2="4.425" y2="2.54" width="0.127" layer="21"/>
-<wire x1="5.695" y1="2.54" x2="6.33" y2="1.905" width="0.127" layer="21"/>
-<wire x1="6.33" y1="1.905" x2="6.965" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.915" y1="-2.54" x2="3.185" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="4.465" y1="-2.54" x2="5.735" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.195" y1="-2.54" x2="3.83" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="3.83" y1="-1.905" x2="4.465" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.735" y1="-2.54" x2="6.37" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="6.37" y1="-1.905" x2="7.005" y2="-2.54" width="0.127" layer="21"/>
+<package name="CONN-VERT-2.54MM-2X6-FEMALE" urn="urn:adsk.eagle:footprint:46607854/2" library_version="232">
+<pad name="1" x="-6.35" y="-1.27" drill="1.1" shape="octagon"/>
+<pad name="3" x="-3.81" y="-1.27" drill="1.1"/>
+<pad name="5" x="-1.27" y="-1.27" drill="1.1"/>
+<pad name="2" x="-6.35" y="1.27" drill="1.1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1.1"/>
+<pad name="6" x="-1.27" y="1.27" drill="1.1"/>
+<pad name="7" x="1.27" y="-1.27" drill="1.1"/>
+<pad name="8" x="1.27" y="1.27" drill="1.1"/>
+<pad name="9" x="3.81" y="-1.27" drill="1.1"/>
+<pad name="11" x="6.35" y="-1.27" drill="1.1"/>
+<pad name="10" x="3.81" y="1.27" drill="1.1"/>
+<pad name="12" x="6.35" y="1.27" drill="1.1"/>
+<text x="-7.62" y="3.175" size="0.6096" layer="21">&gt;NAME</text>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="F0504-H-05-10G-R" urn="urn:adsk.eagle:footprint:45700381/2" library_version="225">
 <smd name="P$1" x="-1" y="1.905" dx="0.3" dy="0.85" layer="1"/>
@@ -3753,9 +3713,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <packageinstance name="HOLE_0.8MM"/>
 </packageinstances>
 </package3d>
-<package3d name="CONN-VERT-2.54MM-2X6-MALE" urn="urn:adsk.eagle:package:16614430/1" type="box" library_version="228">
+<package3d name="CONN-VERT-2.54MM-2X6-FEMALE" urn="urn:adsk.eagle:package:46607855/4" type="model" library_version="232">
 <packageinstances>
-<packageinstance name="CONN-VERT-2.54MM-2X6-MALE"/>
+<packageinstance name="CONN-VERT-2.54MM-2X6-FEMALE"/>
 </packageinstances>
 </package3d>
 <package3d name="F0504-H-05-10G-R" urn="urn:adsk.eagle:package:45700382/3" type="model" library_version="225">
@@ -3900,12 +3860,12 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONVERT-2X6-2.54MM-MALE" urn="urn:adsk.eagle:component:16614440/1" prefix="J" library_version="228">
+<deviceset name="CONVERT-2X6-2.54MM-FEMALE" urn="urn:adsk.eagle:component:46607856/3" prefix="J" library_version="232">
 <gates>
 <gate name="G$1" symbol="CON12PINS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-VERT-2.54MM-2X6-MALE">
+<device name="" package="CONN-VERT-2.54MM-2X6-FEMALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -3921,7 +3881,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16614430/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46607855/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -20424,7 +20384,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R11" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100"/>
-<part name="J2" library="property-connectors" library_urn="urn:adsk.eagle:library:15015717" deviceset="CONVERT-2X6-2.54MM-MALE" device="" package3d_urn="urn:adsk.eagle:package:16614430/1"/>
+<part name="J2" library="property-connectors" library_urn="urn:adsk.eagle:library:15015717" deviceset="CONVERT-2X6-2.54MM-FEMALE" device="" package3d_urn="urn:adsk.eagle:package:46607855/4"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P-5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20469,6 +20429,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP10" library="property-pads" library_urn="urn:adsk.eagle:library:35645945" deviceset="TP" device="TP16R" package3d_urn="urn:adsk.eagle:package:27969/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -22586,6 +22547,10 @@ fc=33Hz</text>
 <attribute name="NAME" x="31.75" y="87.63" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="34.29" y="85.09" size="1.778" layer="97"/>
 </instance>
+<instance part="TP10" gate="G$1" x="106.68" y="27.94" smashed="yes">
+<attribute name="NAME" x="105.41" y="29.21" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="107.95" y="26.67" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23027,8 +22992,10 @@ fc=33Hz</text>
 <net name="SDADC1_CH6" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="C"/>
-<wire x1="83.82" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="88.9" y="22.86" size="1.778" layer="95"/>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="22.86" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDADC1_CH5" class="0">
