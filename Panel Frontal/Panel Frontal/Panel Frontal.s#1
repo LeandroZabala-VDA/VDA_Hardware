@@ -10884,6 +10884,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="VERSION" value="1.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -10914,7 +10915,9 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <part name="+3V2" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="+3V3" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="R3" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
-<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
+<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device="">
+<attribute name="VERSION" value=""/>
+</part>
 <part name="+3V4" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="D2" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 <part name="R6" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
@@ -10925,7 +10928,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <sheet>
 <description>Panel Frontal</description>
 <plain>
-<text x="58.42" y="48.26" size="1.778" layer="97">VLRK31Q1R2-GS08</text>
+<text x="48.26" y="63.5" size="1.778" layer="97">VLRK31Q1R2-GS08</text>
 <text x="183.388" y="167.64" size="3.81" layer="97">Power LED</text>
 <text x="150.368" y="167.64" size="3.81" layer="97">ACQ LED</text>
 <text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
@@ -11012,6 +11015,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="SHEET_HEADLINE" x="185.42" y="12.7" size="3.81" layer="97"/>
 <attribute name="LAST_DATE_TIME" x="195.58" y="1.27" size="2.54" layer="97"/>
+<attribute name="VERSION" x="251.46" y="1.27" size="2.54" layer="97"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="63.5" y="86.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="71.12" y="83.82" size="1.778" layer="96" rot="MR0"/>

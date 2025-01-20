@@ -34069,7 +34069,7 @@
 <attribute name="SHEET_HEADLINE" x="185.42" y="12.7" size="3.81" layer="97"/>
 <attribute name="LAST_DATE_TIME" x="195.58" y="1.27" size="2.54" layer="97"/>
 </instance>
-<instance part="U$2" gate="G$1" x="45.72" y="5.08" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="116.84" y="119.38" smashed="yes"/>
 </instances>
 <busses>
 </busses>

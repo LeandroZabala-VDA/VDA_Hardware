@@ -10926,6 +10926,9 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <description>Panel Frontal</description>
 <plain>
 <text x="58.42" y="48.26" size="1.778" layer="97">VLRK31Q1R2-GS08</text>
+<text x="183.388" y="167.64" size="3.81" layer="97">Power LED</text>
+<text x="150.368" y="167.64" size="3.81" layer="97">ACQ LED</text>
+<text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">
