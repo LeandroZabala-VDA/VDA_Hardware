@@ -20362,7 +20362,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="V" value="16V"/>
 </part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U7" library="property" library_urn="urn:adsk.eagle:library:12595904" deviceset="LM324B" device="D" package3d_urn="urn:adsk.eagle:package:43268953/1" value="TL072"/>
+<part name="U7" library="property" library_urn="urn:adsk.eagle:library:12595904" deviceset="LM324B" device="D" package3d_urn="urn:adsk.eagle:package:43268953/1" value="TL074"/>
 <part name="R22" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="10M">
 <attribute name="DESCRIPTION" value="FILM"/>
 </part>

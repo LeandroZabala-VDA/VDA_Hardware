@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -20367,15 +20367,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="DESCRIPTION" value="FILM"/>
 </part>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C40" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0603" package3d_urn="urn:adsk.eagle:package:20146986/3" value="100n">
-<attribute name="DESCRIPTION" value="NP0"/>
-</part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R23" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="10M">
 <attribute name="DESCRIPTION" value="FILM"/>
-</part>
-<part name="C41" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0603" package3d_urn="urn:adsk.eagle:package:20146986/3" value="100n">
-<attribute name="DESCRIPTION" value="NP0"/>
 </part>
 <part name="R20" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100">
 <attribute name="DESCRIPTION" value="FILM"/>
@@ -20508,6 +20502,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C1" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0805" package3d_urn="urn:adsk.eagle:package:20146985/2" value="4.7u"/>
 <part name="C2" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0805" package3d_urn="urn:adsk.eagle:package:20146985/2" value="4.7u"/>
 <part name="C19" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_0805" package3d_urn="urn:adsk.eagle:package:20146985/2" value="4.7u"/>
+<part name="C41" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_1206" package3d_urn="urn:adsk.eagle:package:20146982/3" value="100n">
+<attribute name="DESCRIPTION" value="NP0-C0G"/>
+</part>
+<part name="C40" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="C" device="_1206" package3d_urn="urn:adsk.eagle:package:20146982/3" value="100n">
+<attribute name="DESCRIPTION" value="NP0-C0G"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -22341,11 +22341,6 @@ fc=33Hz</text>
 <instance part="GND27" gate="1" x="119.38" y="129.54" smashed="yes">
 <attribute name="VALUE" x="116.84" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="C40" gate="G$1" x="109.22" y="139.7" smashed="yes">
-<attribute name="NAME" x="110.49" y="139.7" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.49" y="134.62" size="1.778" layer="96"/>
-<attribute name="DESCRIPTION" x="104.14" y="132.08" size="1.778" layer="96"/>
-</instance>
 <instance part="GND28" gate="1" x="109.22" y="129.54" smashed="yes">
 <attribute name="VALUE" x="106.68" y="127" size="1.778" layer="96"/>
 </instance>
@@ -22353,11 +22348,6 @@ fc=33Hz</text>
 <attribute name="NAME" x="130.048" y="175.2346" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="125.222" y="175.26" size="1.778" layer="96" rot="MR0"/>
 <attribute name="DESCRIPTION" x="129.54" y="168.91" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="C41" gate="G$1" x="127" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="120.904" y="165.481" size="1.778" layer="95"/>
-<attribute name="VALUE" x="131.064" y="165.481" size="1.778" layer="96"/>
-<attribute name="DESCRIPTION" x="127" y="163.83" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R20" gate="G$1" x="96.52" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="160.02" size="1.778" layer="95"/>
@@ -22636,6 +22626,16 @@ fc=33Hz</text>
 <instance part="SJ7" gate="G$1" x="170.18" y="81.28" smashed="yes">
 <attribute name="NAME" x="170.18" y="83.82" size="0.8128" layer="95"/>
 </instance>
+<instance part="C41" gate="G$1" x="127" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.904" y="165.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="131.064" y="165.481" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="115.57" y="162.56" size="1.778" layer="96"/>
+</instance>
+<instance part="C40" gate="G$1" x="109.22" y="139.7" smashed="yes">
+<attribute name="NAME" x="110.744" y="140.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.744" y="135.001" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="108.458" y="136.652" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22653,9 +22653,9 @@ fc=33Hz</text>
 <wire x1="119.38" y1="134.62" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="109.22" y1="134.62" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="2"/>
@@ -22737,7 +22737,6 @@ fc=33Hz</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="U7" gate="1" pin="+IN"/>
 <wire x1="121.92" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="152.4" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="152.4" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="144.78" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
@@ -22746,11 +22745,11 @@ fc=33Hz</text>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
 <junction x="119.38" y="152.4"/>
+<pinref part="C40" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT_CHARGE_AMP" class="0">
 <segment>
-<pinref part="C41" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="172.72" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="165.1" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
@@ -22768,6 +22767,7 @@ fc=33Hz</text>
 <wire x1="147.32" y1="157.48" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <junction x="144.78" y="154.94"/>
+<pinref part="C41" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -22775,7 +22775,6 @@ fc=33Hz</text>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="172.72" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U7" gate="1" pin="-IN"/>
 <wire x1="121.92" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
@@ -22784,6 +22783,7 @@ fc=33Hz</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="157.48" x2="101.6" y2="157.48" width="0.1524" layer="91"/>
 <junction x="114.3" y="157.48"/>
+<pinref part="C41" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="-5V" class="0">
