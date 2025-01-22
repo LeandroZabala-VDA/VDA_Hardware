@@ -35029,7 +35029,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <part name="R17" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="D6" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
 <part name="R18" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
-<part name="FRAME3" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
+<part name="FRAME4" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
 <part name="U$1" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="LOGO_VDA" device="-3CM" package3d_urn="urn:adsk.eagle:package:46150161/3"/>
 </parts>
 <sheets>
@@ -35320,7 +35320,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="SHEET_HEADLINE" x="185.42" y="12.7" size="3.81" layer="97"/>
 <attribute name="LAST_DATE_TIME" x="195.58" y="1.27" size="2.54" layer="97"/>
 </instance>

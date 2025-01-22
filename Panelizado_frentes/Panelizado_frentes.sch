@@ -34999,36 +34999,36 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </class>
 </classes>
 <parts>
-<part name="J2" library="property-connectors" library_urn="urn:adsk.eagle:library:15015717" deviceset="F0504-H-05-10G-R" device="" package3d_urn="urn:adsk.eagle:package:45700382/3"/>
+<part name="J1" library="property-connectors" library_urn="urn:adsk.eagle:library:15015717" deviceset="F0504-H-05-10G-R" device="" package3d_urn="urn:adsk.eagle:package:45700382/3"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
-<part name="Q4" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
+<part name="Q1" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
-<part name="R11" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R2" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
+<part name="R1" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q5" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
+<part name="Q2" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
-<part name="R13" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R5" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
+<part name="R4" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q6" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
+<part name="Q3" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="N-MOS" device="_SOT23-3" package3d_urn="urn:adsk.eagle:package:20143380/6" value="BSS138"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
-<part name="R15" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R8" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100K"/>
+<part name="R7" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="+3V6" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="+3V7" library="USBC_LBRY" deviceset="+3V3" device=""/>
-<part name="R16" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R3" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="FRAME2" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device="">
 <attribute name="VERSION" value=""/>
 </part>
 <part name="+3V8" library="USBC_LBRY" deviceset="+3V3" device=""/>
 <part name="D5" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
-<part name="R17" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R6" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="D6" library="property_LED" library_urn="urn:adsk.eagle:library:46147719" deviceset="LED-REVERSE_MOUNT" device="" package3d_urn="urn:adsk.eagle:package:46147722/4"/>
-<part name="R18" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
+<part name="R9" library="Property-standar" library_urn="urn:adsk.eagle:library:20126172" deviceset="R" device="_0603" package3d_urn="urn:adsk.eagle:package:39983384/2" value="100R"/>
 <part name="FRAME3" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="FRAMES" device=""/>
 <part name="U$1" library="Frames" library_urn="urn:adsk.eagle:library:46102009" deviceset="LOGO_VDA" device="-3CM" package3d_urn="urn:adsk.eagle:package:46150161/3"/>
 </parts>
@@ -35042,7 +35042,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
 </plain>
 <instances>
-<instance part="J2" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">
+<instance part="J1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="69.85" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="53.34" y="90.17" size="1.778" layer="96" rot="R180" align="top-left"/>
 </instance>
@@ -35053,54 +35053,54 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <attribute name="NAME" x="124.46" y="149.86" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="118.11" y="149.86" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Q4" gate="G$1" x="121.92" y="104.14" smashed="yes">
+<instance part="Q1" gate="G$1" x="121.92" y="104.14" smashed="yes">
 <attribute name="NAME" x="125.73" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="121.92" y="86.36" smashed="yes">
 <attribute name="VALUE" x="119.38" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="114.3" y="93.98" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="114.3" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.8014" y="90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="117.602" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="106.68" y="101.6" smashed="yes" rot="R180">
+<instance part="R1" gate="G$1" x="106.68" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.49" y="100.1014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="110.49" y="104.902" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND7" gate="1" x="114.3" y="86.36" smashed="yes">
 <attribute name="VALUE" x="111.76" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="Q5" gate="G$1" x="157.48" y="104.14" smashed="yes">
+<instance part="Q2" gate="G$1" x="157.48" y="104.14" smashed="yes">
 <attribute name="NAME" x="161.29" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="157.48" y="86.36" smashed="yes">
 <attribute name="VALUE" x="154.94" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="149.86" y="93.98" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="149.86" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.3614" y="90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="153.162" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R180">
+<instance part="R4" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="146.05" y="100.1014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="146.05" y="104.902" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND9" gate="1" x="149.86" y="86.36" smashed="yes">
 <attribute name="VALUE" x="147.32" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="Q6" gate="G$1" x="193.04" y="104.14" smashed="yes">
+<instance part="Q3" gate="G$1" x="193.04" y="104.14" smashed="yes">
 <attribute name="NAME" x="196.85" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.85" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="193.04" y="86.36" smashed="yes">
 <attribute name="VALUE" x="190.5" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="185.42" y="93.98" smashed="yes" rot="R90">
+<instance part="R8" gate="G$1" x="185.42" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="183.9214" y="90.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="188.722" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="177.8" y="101.6" smashed="yes" rot="R180">
+<instance part="R7" gate="G$1" x="177.8" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="181.61" y="100.1014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="181.61" y="104.902" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -35116,7 +35116,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <instance part="+3V7" gate="G$1" x="193.04" y="157.48" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="200.66" y="154.94" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R16" gate="G$1" x="121.92" y="116.84" smashed="yes" rot="R270">
+<instance part="R3" gate="G$1" x="121.92" y="116.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="123.4186" y="120.65" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="118.618" y="120.65" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -35132,7 +35132,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <attribute name="NAME" x="160.02" y="149.86" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="153.67" y="149.86" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R17" gate="G$1" x="157.48" y="116.84" smashed="yes" rot="R270">
+<instance part="R6" gate="G$1" x="157.48" y="116.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="158.9786" y="120.65" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="154.178" y="120.65" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -35140,7 +35140,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <attribute name="NAME" x="195.58" y="149.86" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="189.23" y="149.86" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R18" gate="G$1" x="193.04" y="116.84" smashed="yes" rot="R270">
+<instance part="R9" gate="G$1" x="193.04" y="116.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="194.5386" y="120.65" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="189.738" y="120.65" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -35150,37 +35150,37 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="121.92" y1="99.06" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="S"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="157.48" y1="99.06" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="193.04" y1="99.06" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="55.88" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="83.82" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="SUP"/>
+<pinref part="J1" gate="G$1" pin="SUP"/>
 <wire x1="58.42" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="88.9" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <junction x="58.42" y="88.9"/>
@@ -35193,7 +35193,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="63.5" y1="81.28" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="55.88" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -35214,10 +35214,10 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="99.06" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <junction x="114.3" y="101.6"/>
@@ -35225,10 +35225,10 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="147.32" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="149.86" y="101.6"/>
@@ -35236,10 +35236,10 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="Q6" gate="G$1" pin="G"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="182.88" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="99.06" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
 <junction x="185.42" y="101.6"/>
@@ -35247,71 +35247,71 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="101.6" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="101.6" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="K"/>
 <wire x1="121.92" y1="121.92" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="109.22" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="D5" gate="G$1" pin="K"/>
 <wire x1="157.48" y1="121.92" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="109.22" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="K"/>
 <wire x1="193.04" y1="121.92" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="109.22" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 </segment>
 </net>
 </nets>
