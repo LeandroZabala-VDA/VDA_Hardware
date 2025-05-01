@@ -1,0 +1,25 @@
+Circuit: * C:\Users\leank\OneDrive - tresdimensiones\Documentos\EAGLE\projects\VDA\Design\LM13700-spice-model-master\Draft2.asc
+
+.OP point found by inspection.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+
+Date: Sun Feb 09 10:43:47 2025
+Total elapsed time: 0.049 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2110
+traniter = 2110
+tranpoints = 1056
+accept = 1055
+rejected = 1
+matrix size = 6
+fillins = 3
+solver = Normal
+Matrix Compiler1: 348 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+

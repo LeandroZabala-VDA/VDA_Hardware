@@ -20511,12 +20511,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </parts>
 <sheets>
 <sheet>
-<description>Isolated USB-UART Bridge</description>
+<description>Conversor Aislado  USB-UART</description>
 <plain>
-<text x="83.82" y="114.3" size="3.81" layer="97">USB-TTL MCU</text>
+<text x="83.82" y="114.3" size="3.81" layer="97">CONVERSOR USB-UART</text>
 <text x="63.5" y="45.72" size="1.778" layer="97">bus-powered</text>
-<text x="40.64" y="187.96" size="3.81" layer="97">ISOLATED POWER SUPPLY</text>
-<text x="175.26" y="187.96" size="3.81" layer="97">ISOLATED UART</text>
+<text x="33.02" y="187.96" size="3.81" layer="97">FUENTE DE ALIMENTACIÓN AISLADA</text>
+<text x="175.26" y="187.96" size="3.81" layer="97">UART AISLADA</text>
 </plain>
 <instances>
 <instance part="R4" gate="G$1" x="144.78" y="106.68" smashed="yes">
@@ -21084,16 +21084,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 <sheet>
-<description>LDO and Voltage Reference</description>
+<description>Reguladores de tensión</description>
 <plain>
 <text x="27.94" y="71.12" size="1.778" layer="97">If the VDD and VDDA pins are split,
 the designer must ensure that VDDA 
 power is applied before or simultaneously
  with VDD</text>
-<text x="60.96" y="139.7" size="3.81" layer="97">POWER SUPPLY FOR MCU
-(DIGITAL DOMAIN)</text>
-<text x="165.1" y="139.7" size="3.81" layer="97">POWER SUPPLY FOR MCU
-(ANALOG DOMAIN)</text>
+<text x="60.96" y="139.7" size="3.81" layer="97">FUENTE DE ALIMENTACIÓN PARA MCU
+(DOMINIO DIGITAL)</text>
+<text x="165.1" y="139.7" size="3.81" layer="97">FUENTE DE ALIMENTACIÓN PARA MCU
+(DOMINIO ANALÓGICO)</text>
 </plain>
 <instances>
 <instance part="C15" gate="G$1" x="40.64" y="106.68" smashed="yes">
@@ -21377,12 +21377,13 @@ power is applied before or simultaneously
 </nets>
 </sheet>
 <sheet>
-<description>MCU</description>
+<description>Microcontrolador</description>
 <plain>
 <text x="226.06" y="187.96" size="1.778" layer="97">STLINK V3</text>
 <text x="20.32" y="33.02" size="1.778" layer="97">5x100n + 1x4.7u</text>
 <text x="10.16" y="93.98" size="1.778" layer="97">CLoad=(C1*C2/(C1+C2))+Cstray</text>
-<text x="27.94" y="177.8" size="3.81" layer="97">BOOT0 managment circuit</text>
+<text x="27.94" y="177.8" size="3.81" layer="97">CIRCUITO DE CONTROL
+DE BOOT0</text>
 <text x="231.14" y="121.92" size="1.778" layer="97">Serial Wire 
 Debug</text>
 <text x="231.14" y="137.16" size="1.778" layer="97">4 Wire JTAG
@@ -22287,7 +22288,7 @@ Debug</text>
 </nets>
 </sheet>
 <sheet>
-<description>Front End</description>
+<description>Etapa de Entrada</description>
 <plain>
 <text x="17.78" y="53.34" size="1.778" layer="97">TL072
 Power</text>
@@ -22296,17 +22297,17 @@ Power</text>
 <text x="30.48" y="119.38" size="1.778" layer="97">https://www.ti.com/litv/pdf/slyt369</text>
 <text x="73.66" y="53.34" size="1.778" layer="97">MS384-10F
 MS384-10C</text>
-<text x="60.96" y="187.96" size="3.81" layer="97">Differential Charge-Amp</text>
-<text x="165.1" y="187.96" size="3.81" layer="97">Voltage Controlled Amplifier</text>
-<text x="35.56" y="106.68" size="3.81" layer="97">Voltage - Current Converter</text>
+<text x="60.96" y="187.96" size="3.81" layer="97">Amplificador de Carga Diferencial</text>
+<text x="165.1" y="187.96" size="3.81" layer="97">Amplificador Controlado por Tensión</text>
+<text x="20.32" y="106.68" size="3.81" layer="97">Conversor Tensión - Corriente</text>
 <text x="53.34" y="101.6" size="1.778" layer="97">(0-3V3 -&gt; 0-100uA)</text>
-<text x="106.68" y="53.34" size="1.778" layer="97">Unused LM13700 1/2</text>
+<text x="106.68" y="53.34" size="1.778" layer="97">No usado LM13700 1/2</text>
 <text x="21.59" y="90.17" size="1.778" layer="97">Set Minimum current</text>
 <text x="198.12" y="182.88" size="1.778" layer="97">Ganancia 0.16 - 2.5</text>
 <text x="124.46" y="96.52" size="1.778" layer="97" rot="R180">LPF
 fc=33Hz</text>
-<text x="114.3" y="106.68" size="3.81" layer="97">Current to Voltage</text>
-<text x="190.5" y="106.68" size="3.81" layer="97">Amplifier and Offset</text>
+<text x="114.3" y="106.68" size="3.81" layer="97">Conversor Corriente - Tensión</text>
+<text x="190.5" y="106.68" size="3.81" layer="97">Amplificador y Offset</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
@@ -23187,12 +23188,13 @@ fc=33Hz</text>
 </nets>
 </sheet>
 <sheet>
-<description>Status LEDs &amp; Expansion Connectors</description>
+<description>LEDs indicadores y Conectores</description>
 <plain>
 <text x="43.688" y="152.4" size="3.81" layer="97">Power LED</text>
 <text x="109.728" y="152.4" size="3.81" layer="97">ACQ LED</text>
-<text x="175.768" y="152.4" size="3.81" layer="97">Expansion Connector</text>
-<text x="48.26" y="71.12" size="3.81" layer="97">Front Panel Connector</text>
+<text x="175.768" y="152.4" size="3.81" layer="97">Conector de Expansión</text>
+<text x="48.26" y="71.12" size="3.81" layer="97">Conector para
+panel Frontal</text>
 </plain>
 <instances>
 <instance part="D16" gate="G$1" x="50.8" y="116.84" smashed="yes" rot="R90">
