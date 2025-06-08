@@ -39,9 +39,9 @@ Key features include:
   
 ## 📷 Preview
 
-![Preview of the device](Fotos\Render_PCB_Perspective_transparent.png)
+![PCB Render](Fotos\Render_PCB_Perspective_transparent.png)
 
-![Preview of the device](Fotos\PCB_shield.jpg)
+![PCB Photo](Fotos\PCB_shield.jpg)
 
 ## 🧩 Related Work
 
