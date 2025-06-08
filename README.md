@@ -41,7 +41,7 @@ Key features include:
 
 ![PCB Render](Fotos/Render_PCB_Perspective_transparent.png)
 
-![PCB Photo](Fotos/PCB_shield.jpg)
+![PCB Photo](Fotos/PCB_Shield.jpg)
 
 ## 🧩 Related Work
 
