@@ -10928,15 +10928,16 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <sheet>
 <description>Panel Frontal</description>
 <plain>
-<text x="48.26" y="63.5" size="1.778" layer="97">VLRK31Q1R2-GS08</text>
+<text x="83.82" y="144.78" size="1.778" layer="97">LED: VLRK31Q1R2-GS08</text>
 <text x="183.388" y="167.64" size="3.81" layer="97">Power LED</text>
 <text x="150.368" y="167.64" size="3.81" layer="97">ACQ LED</text>
 <text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
+<text x="249.682" y="1.27" size="2.54" layer="97">&gt;Version</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="69.85" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="53.34" y="90.17" size="1.778" layer="96" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="45.72" y="64.77" size="1.778" layer="96" rot="MR180" align="top-left"/>
 </instance>
 <instance part="GND64" gate="1" x="68.58" y="88.9" smashed="yes">
 <attribute name="VALUE" x="66.04" y="86.36" size="1.778" layer="96"/>

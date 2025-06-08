@@ -5035,7 +5035,7 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="62.865" x2="78.105" y2="62.865" width="0.1524" layer="1"/>
 <wire x1="78.605" y1="63.365" x2="80.01" y2="63.365" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEÑAL_SIN_OFFSET">
+<signal name="N$5">
 <contactref element="R35" pad="1"/>
 <contactref element="SJ7" pad="P$2"/>
 <contactref element="C43" pad="2"/>

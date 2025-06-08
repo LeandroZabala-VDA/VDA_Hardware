@@ -1,18 +1,109 @@
 Circuit: * C:\Users\leank\OneDrive - tresdimensiones\Documentos\EAGLE\projects\VDA\Design\LM13700-spice-model-master\Draft3.asc
 
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.60861e-006
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 6.61872e-006
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 5.09002e-006
+vernier = 0.197531
+Gmin = 3.33487e-006
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.68402e-006
+vernier = 0.46822
+vernier = 0.23411
+Gmin = 7.52208e-007
+vernier = 0.117055
+vernier = 0.0585276
+vernier = 0.0292638
+Gmin = 7.14902e-007
+vernier = 0.0146319
+vernier = 0.00731595
+vernier = 0.00365797
+vernier = 0.00182899
+vernier = 0.000914493
+vernier = 0.000457247
+Gmin = 7.14657e-007
+vernier = 0.000609662
+vernier = 0.000812882
+Gmin = 7.1355e-007
+vernier = 0.00108384
+Gmin = 7.11813e-007
+vernier = 0.00144512
+vernier = 0.00192683
+Gmin = 7.08905e-007
+vernier = 0.00256911
+vernier = 0.00342548
+Gmin = 7.04292e-007
+vernier = 0.0045673
+Gmin = 6.97095e-007
+vernier = 0.00608973
+vernier = 0.00811964
+Gmin = 6.85181e-007
+vernier = 0.0108262
+vernier = 0.0144349
+Gmin = 6.6661e-007
+vernier = 0.0192465
+Gmin = 6.3842e-007
+vernier = 0.025662
+vernier = 0.0342161
+Gmin = 5.93808e-007
+vernier = 0.0456214
+vernier = 0.0608285
+Gmin = 5.2916e-007
+vernier = 0.0811047
+Gmin = 4.41633e-007
+vernier = 0.10814
+vernier = 0.144186
+Gmin = 3.26613e-007
+vernier = 0.192248
+vernier = 0.25633
+Gmin = 2.02769e-007
+vernier = 0.341774
+Gmin = 9.6707e-008
+vernier = 0.455698
+vernier = 0.607598
+Gmin = 2.87518e-008
+vernier = 0.81013
+vernier = 1
+Gmin = 4.58601e-009
+Gmin = 4.92419e-010
+Gmin = 5.28731e-011
+Gmin = 5.6772e-012
+Gmin = 6.09585e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-Date: Wed Feb 19 13:02:17 2025
-Total elapsed time: 0.090 seconds.
+
+Date: Sat May 03 15:52:39 2025
+Total elapsed time: 1.143 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 0
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 4
-fillins = 0
+method = modified trap
+totiter = 4866
+traniter = 2101
+tranpoints = 1050
+accept = 1049
+rejected = 1
+matrix size = 130
+fillins = 92
 solver = Normal
+Thread vector: 25.4/15.4[4] 17.6/6.3[4] 7.1/5.0[4] 0.7/2.6[1]  2592/500
+Matrix Compiler1: 14.07 KB object code size  5.5/3.0/[1.8]
+Matrix Compiler2: 13.54 KB object code size  5.1/7.0/[1.0]
 

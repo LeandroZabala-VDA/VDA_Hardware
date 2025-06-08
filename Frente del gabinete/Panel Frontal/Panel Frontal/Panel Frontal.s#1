@@ -10932,6 +10932,7 @@ https://www.centralsemi.com/PDFS/CASE/SOIC-8PD.PDF</description>
 <text x="183.388" y="167.64" size="3.81" layer="97">Power LED</text>
 <text x="150.368" y="167.64" size="3.81" layer="97">ACQ LED</text>
 <text x="112.268" y="167.64" size="3.81" layer="97">PROG LED</text>
+<text x="249.682" y="1.27" size="2.54" layer="97">&gt;Version</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R180">
