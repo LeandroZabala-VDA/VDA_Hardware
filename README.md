@@ -2,6 +2,8 @@
 
 This repository contains the hardware design files for the **VDA Signal Acquisition System**, a device developed for the non-invasive measurement of **Arterial Diameter Variation (VDA)** using piezoelectric transducers. The system is intended for biomedical research applications and has been validated in both laboratory and clinical environments.
 
+![Equipo terminadp](Fotos/equipo_terminado_perspectiva.jpg)
+
 ## 📁 Repository Structure
 
 - **/Adquisidor**  
@@ -36,9 +38,9 @@ Key features include:
 
 ## 📷 Preview
 
-![Render PCB](Fotos\Render_PCB_Perspective_transparent.png)
+![Render PCB](Fotos/Render_PCB_Perspective_transparent.png)
 
-![Real PCB](Fotos\PCB_Shield.jpg)
+![Real PCB](Fotos/PCB_Shield.jpg)
 
 ## 🧩 Related Work
 
