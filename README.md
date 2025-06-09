@@ -13,7 +13,7 @@ This repository contains the hardware design files for the **VDA Signal Acquisit
 ## 🛠️ Tools and Compatibility
 
 - Designed using **Autodesk Eagle**  
-- Compatible with Eagle version XX.X or later *(replace with actual version used)*
+- Compatible with Eagle version 9.6.2 or later
 
 ## ✅ Hardware Status
 
@@ -36,7 +36,9 @@ Key features include:
 
 ## 📷 Preview
 
-![Preview of the device](preview.png)
+![Render PCB](Fotos\Render_PCB_Perspective_transparent.png)
+
+![Real PCB](Fotos\PCB_Shield.jpg)
 
 ## 🧩 Related Work
 
@@ -51,6 +53,7 @@ Any derivative work must also remain open and be shared under the same terms.
 ## 📬 Contact
 
 For questions, suggestions or collaboration, feel free to open an issue or contact me.
+
 leandrozabala@mdp.edu.ar
 
 ---
